@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TrangChu.css">
+    <link rel="stylesheet" href="LienHe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-lienhe">
+        <div class="header">
+            <img id="logo" src="/ASM/ASM1/hinhanh/LOGOQUOC.png" alt="">
+            <div class="box1">
+                <i id="menuSmall" onclick="showMenu()" class="fa fa-bars"
+                    style="font-size:34px; line-height: 70px; margin-right: 15px;"></i>
+                <ul id="menuBig" class="menu">
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="TinTuc.html">Tin tức</a></li>
+                    <li><a href="LienHe.html">Liên hệ</a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                </ul>
+            </div>
+            <br>
+            <div class="login">
+                <a href="">Đăng Nhập</a>
+                <img src="/ASM/ASM1/hinhanh/daugachcheo-removebg-preview.png" width="30px" height="30px" alt="">
+                <a href="">Đăng Ký</a>
+            </div>
+            <div class="name">
+                Chào mừng đến với Nha Trang University
+            </div>
+            <div class="namenho">
+                Đánh thức mọi giác quan với hệ sinh thái nghỉ dưỡng ven biển đẳng cấp của Vinpearl
+            </div>
+            <div class="khampha">
+                <a href="">Khám Phá ➣</a>
+            </div>
+        </div>
+        <img src="anhLienHe/bannerLienhe.jpg" width="100%" style="margin-bottom: 30px; object-fit: cover;" alt="">
+
+        <div class="lienhe-aside">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email*">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Mặt Khẩu</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password*">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Họ Và Tên</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Họ Và Tên*">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Số Điện Thoại</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Số Điện Thoại*">
+            </div>
+
+            <div class="col-12">
+                <label for="inputState" class="form-label">Hỗ Trợ</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Hỗ Trợ [VinPearl]</option>
+                    <option selected>Hỗ Trợ [Khiếu Nại]</option>
+                    <option selected>Hỗ Trợ [Tư Vấn]</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Nội Dung</label>
+                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Nội dung Liên Hệ*"
+                    required></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Gửi Liên Hệ</button>
+            </div>
+        </form>
+    
+
+        <div class="row g-0" style="margin-top: 30px;">
+            <div class="col-sm-6 col-md-8" id="lienhe">
+                <div class="i" style="padding-top: 25px;">
+                    <i class="fa fa-phone" style="margin-right: 20px;"> </i>
+                    <p>1900 23 23 89 (Nhánh số 3)</p>
+                </div>
+
+                <div class="i">
+                    <i class="fa fa-phone" style="margin-right: 20px;"> </i>
+                    <p>1900 23 23 89 (Nhánh số 3)</p>
+                </div>
+
+                <div class="i">
+                    <i class="fa fa-envelope" style="margin-right: 20px;"></i>
+                    <p>callcenter@vinpearl.com</p>
+                </div>
+                <div class="i">
+                    <i class="fa fa-map-marker" style="margin-right: 20px; "></i>
+                    <p>Toà nhà Symphony, Đường Chu Huy Mân, Vinhomes Riverside Long Biên, Hà Nội</p>
+                </div>
+                <div class="img">
+                    <a href=""><img src="anhLienHe/facebook.png" width="50px" alt=""></a>
+                    <a href=""><img src="anhLienHe/youtube.png" width="50px" alt=""></a>
+                    <a href=""><img src="anhLienHe/instagram.png" width="50px" alt=""></a>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                <div class="anhlienhe">
+                    <img src="anhLienHe/vinper.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="lienhe">
+            <div class="i">
+                <i class="fa fa-phone" style="margin-right: 20px;"> </i>
+                <p>1900 23 23 89 (Nhánh số 3)</p>
+            </div>
+
+            <div class="i">
+                <i class="fa fa-phone" style="margin-right: 20px;"> </i>
+                <p>1900 23 23 89 (Nhánh số 3)</p>
+            </div>
+
+            <div class="i">
+                <i class="fa fa-envelope" style="margin-right: 20px;"></i>
+                <p>callcenter@vinpearl.com</p>
+            </div>
+            <div class="i">
+                <i class="fa fa-map-marker"></i>
+                <p>Toà nhà Symphony, Đường Chu Huy Mân, Vinhomes Riverside Long Biên, Hà Nội</p>
+            </div>
+        </div>
+        <div class="google-map"style="margin-top: -180px;"
+        >
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15674.066605402193!2d106.61739909872554!3d10.848253301293882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b6a2b351a5%3A0x11690ada8c36f9bc!2sFPT%20Polytechnic!5e0!3m2!1sen!2s!4v1680063185244!5m2!1sen!2s"
+                width="100%"
+                height="450"
+                style="border: 30"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                
+            </iframe>
+        </div>
+    </div>
+        <div class="row-footer">
+            <div class="column-footer">
+                <div class="footer-box1-name1">
+                    <i class="fa fa-plane" style="font-size:16px;color:orange"></i>
+                    <a href="">Đảo Hòn Tre, Phường Vĩnh Nguyên, Thành phố Nha Trang, Tỉnh Khánh Hòa, Việt Nam</a>
+                </div><br>
+                <div class="footer-box1-name2">
+                    <i class="fa fa-envelope" style="font-size:14px;color:orange"></i>
+                    <a href="">callcenter@vinpearl.com</a>
+                </div><br>
+                <div class="footer-box1-name2">
+                    <i class="fa fa-phone" style="font-size:14px;color:orange"></i>
+                    <a href="">0386 30 49 57</a>
+                </div><br>
+                <div class="footer-box1-name3">
+                    Chủ tài khoản:
+                    Công ty cổ phần Vinpearl
+                    Tài khoản ngân hàng số: 9124412488166 (VND)
+                    Ngân hàng thương mại cổ phần Kỹ Thương Việt Nam (Techcombank) – Hội sở
+                    <br><br>
+                    Số ĐKKD:
+                    4200456848. ĐK lần đầu 26/7/2006.
+                    ĐK thay đổi tại từng thời điểm
+
+                    Nơi cấp:
+
+                    Sở kế hoạch và đầu tư tỉnh Khánh Hòa
+
+                </div>
+            </div>
+
+            <div class="column-footer" style="margin-left: 40px;">
+                <div class="footer-box2-name1">Về Nha Trang </div><br>
+                <div class="footer-box2-name2">
+                    <a href="">Về chúng tôi </a> <br>
+                    <a href="">Liên hệ</a> <br>
+                    <a href="">Tuyển dụng</a><br>
+                    <a href="">Câu hỏi thường gặp </a><br>
+                    <a href="">Bản đồ trang</a><br>
+                </div> <br> <br>
+                <div class="footer-box2-name1">Điểm đến nổi bật </div><br>
+                <div class="footer-box2-name2">
+                    <a href="">Nam Hội An </a> <br>
+                    <a href="">Nha Trang</a> <br>
+                    <a href="">Phú Quốc</a><br>
+                </div>
+            </div>
+
+            <div class="column-footer">
+                <div class="footer-box2-name1">Điều khoản & Quy định </div><br>
+                <div class="footer-box2-name2">
+                    <a href="">Điều khoản chung</a> <br>
+                    <a href="">Quy định chung</a> <br>
+                    <a href="">Quy định về thanh toán</a> <br>
+                    <a href="">Chính sách giải quyết tranh chấp</a><br>
+                    <a href="">Chính sách giải quyết tranh chấp </a><br>
+                    <a href="">Chính sách quyền riêng tư</a><br>
+                </div> <br> <br>
+                <div class="footer-box2-name1">Tag </div><br>
+                <div class="footer-box2-name2">
+                    <a href="">Du lịch Phú Quốc </a> <br>
+                    <a href="">Du lịch Nha Trang</a> <br>
+                    <a href="">Du lịch Hội An</a><br>
+                    <a href="">Du lịch Đà Nẵng</a><br>
+                </div>
+            </div>
+
+            <div class="column-footer">
+                <div class="footer-box2-name1">Tin tức & Sự kiện </div><br>
+                <div class="footer-box2-name2">
+                    <a href="">Tin công ty </a> <br>
+                    <a href="">Cẩm nang du lịch</a> <br>
+                    <a href="">Thành tựu</a><br>
+                </div>
+                <div>
+                    <img style="margin-top: 20px;"
+                        src="https://statics.vinpearl.com/qr-final-final-final_1672909859.svg" alt="">
+                    <a href=""><img src="hinhanh/apstoreggpaly-removebg-preview.png" width="50%" alt=""></a>
+                </div>
+            </div>
+            <div class="apple-store">
+                <a href="https://apps.apple.com/us/app/vinpearl-experience/id1484921109?l=vi"></a>
+            </div>
+        </div>
+        <script>
+            function showMenu() {
+                if (document.getElementById('menuBig').style.display == 'none') {
+                    document.getElementById('menuBig').style.display = 'block';
+                } else {
+                    document.getElementById('menuBig').style.display = 'none';
+                }
+            }
+        </script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

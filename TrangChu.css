@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-trangchu {
+    width: 100%;
+    background-color:  floralwhite;
+    height: 2300px;
+}
+
+.header {
+    background: url(/ASM/ASM1/hinhanh/anhvinpear.png)no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.login {
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+.login a {
+    background-color: dodgerblue;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.login a:hover {
+    color: black;
+    background-color: orange;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80px;
+    float: left;
+}
+
+.box1 {
+    
+}
+
+
+.menu li{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: darkblue;
+}
+.menu li a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;           
+}
+.menu li:hover{
+    background-color: rgb(114, 145, 145);
+    color: yellow;
+
+}
+
+#menuSmall {
+    float: right;
+}
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 65px;
+}
+
+.namenho {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.khampha{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: inset 0 0 5px white;
+    width: 100px;
+    line-height: 50px;
+}
+.khampha a{
+    text-decoration: none;
+    color: white;
+}
+.khampha:hover{
+    box-shadow: inset 0 0 5px white;
+    color: black;
+    background-color: rgb(154, 151, 151);
+}
+.article{
+
+}
+.article-box1{  
+    padding: 10px;
+    line-height: 50px;
+    align-items: center;
+    width: 28%;
+    box-shadow: inset 0 0 5px black;
+    align-items: center;
+}
+.article-box1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.article-box2{  
+    padding: 10px;
+    line-height: 50px;
+    align-items: center;
+    width: 28%;
+    box-shadow: inset 0 0 5px black;
+}
+.article-box2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.article-box3{  
+    padding: 10px;
+    line-height: 50px;
+    align-items: center;
+    width: 28%;
+    box-shadow: inset 0 0 5px black;
+} 
+.article-box3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.article-timkiem{
+    padding: 10px;
+    line-height: 50px;
+    align-items: center;
+    width: 13%;
+    box-shadow: inset 0 0 5px black;
+    background-color: orange;
+    text-align: center;
+}
+.article-timkiem a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article-timkiem:hover{
+    background-color: orangered;
+}
+
+
+.Name-aside{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: darkcyan;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-shadow: 2px 2px 5px dimgrey;
+}
+.aside-box1{
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.aside-box1-1{
+    width: 45%;    
+}
+.aside-box1-namelon{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: brown;
+}
+.aside-box1-namenho{
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+}
+.aside-box1-2{
+    width: 45%;
+    
+}
+.aside-khampha{
+    margin-top: 5px;
+}
+.aside-khampha a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+}
+.aside-khampha a:hover{
+    color: orange;
+}
+.uudai{
+    
+}
+.uudai>p{
+
+    font-size: 28px;
+    font-weight: bolder;
+    color: maroon;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+.uudai-box1{
+    width: 25%;
+    overflow: hidden;
+}
+.uudai-box1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.uudai-box1 img{
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(15, 25, 78);
+    width: 100%;
+}
+.footer-box1{
+    width: 20%;
+    height: 300px;
+}
+.footer-box1-name1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.footer-box1-name2 a{
+    text-decoration: none;
+    color: orange;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.footer-box1-name3{
+    color: white;
+    font-size: 15px;
+}
+.footer-box2-name1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer-box2-name2{
+}
+.footer-box2-name2 a{
+    text-decoration: none;
+    color: darkgray;
+    
+}
+.footer-box2-name2 a:hover{
+    color: wheat;
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1 img{
+    width: 100%;
+    margin: 0px 0px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow:  0 0 10px cadetblue;
+    border-radius: 10px;
+}
+.column{
+    margin-top: 20px;
+}
+
+.datngay{
+    line-height: 20px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: orange;
+}
+.datngay:hover{
+    background-color: orangered;
+}
+
+
+
+.row-uudai{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.row-uudai img{
+    width: 100%;
+    margin: 0px 0px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow:  0 0 10px cadetblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.column-uudai{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.column-uudai a{
+    text-decoration: none;
+    color: black;
+    
+}
+.column-uudai a:hover{
+    color: tomato;
+}
+.row-footer {
+    display: flex;
+    background-color: rgb(15, 25, 78);
+    justify-content: center;
+}
+.column-footer{
+    margin-top: 30px;
+}
+/* dien thoai doc */
+@media all and (min-width: 240px) {
+    .menu {
+        display: none;
+    
+    }
+    .logo{
+
+    }
+    .menu li {
+        width: 90%;
+        display: inline-block;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside-box1{
+        width: 100%;
+    }
+    .login {
+        display: none;
+    }
+    .article{
+        display: none;
+    }
+    .aside-box1{
+        display: flex;
+    }
+    .uudai{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uudai-box{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+
+    .row1{
+        display: flex;
+        flex-direction: column;
+        }
+        .column{
+        width: 100%;
+    }
+
+
+    .row-uudai{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-uudai{
+        width: 100%;
+    }
+
+    .row-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-footer{
+        width: 100%;
+    }
+}
+
+/* Điện thoại ngang */
+@media all and (min-width: 576px) {
+    #menuSmall {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin: 0;
+    }
+
+    .menu li {
+        display: inline;
+        /* border: 1px solid;                */
+    }
+    .aside{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .aside-box1{
+        width: 50%;
+    }
+
+
+
+    .column{
+        width: 45%;
+    }
+    .row1{
+    display: flex;
+   flex-flow: wrap;
+    }
+    
+
+    .column-uudai{
+        width: 45%;
+    }
+    .row-uudai{
+    display: flex;
+   flex-flow: wrap;
+    }
+
+
+    .column-footer{
+        width: 50%;
+    }
+    .row-footer{
+    display: flex;
+   flex-flow: wrap;
+    }
+}
+
+    /* Máy tính bảng */
+    @media all and (min-width: 768px) {
+        #menuSmall{
+            display: none;
+        }
+        .menu{
+            float: right;
+            display: block;
+            margin-top: 30px;
+        }
+    }
+
+    /* màn hình máy tính */
+    @media all and (min-width: 992px) {
+        .login{
+            display: block;
+        }
+        .menu{
+            
+        }
+        .article{
+            display: block;
+            display: flex;
+        }
+        .aside p{
+            margin-left: 35px;
+        }
+        footer{
+            display: flex;
+            justify-content: center;    
+        }
+        .footer-box1{
+            margin-top: 30px;
+        }
+        .aside-box1{
+            width: 25%;
+        }
+        .column{
+            width: 20%;
+        }
+        .column-uudai{
+            width: 25%;
+        }
+        .column-footer{
+            width: 20%;
+        }
+    }
